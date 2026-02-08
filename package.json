@@ -1,0 +1,24 @@
+{
+    "name": "portfolio-mern",
+    "version": "1.0.0",
+    "description": "MERN Stack Portfolio - Full-Stack Application",
+    "scripts": {
+        "client": "cd client && npm run dev",
+        "server": "cd server && npm run dev",
+        "dev": "echo Please run 'npm run client' or 'npm run server' in separate terminals",
+        "install-all": "cd server && npm install && cd ../client && npm install",
+        "build": "cd client && npm run build"
+    },
+    "keywords": [
+        "portfolio",
+        "mern",
+        "react",
+        "express",
+        "mongodb"
+    ],
+    "author": "Yogeswaran S",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^9.2.1"
+    }
+}

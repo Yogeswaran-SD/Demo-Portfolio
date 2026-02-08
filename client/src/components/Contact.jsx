@@ -6,20 +6,20 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'yourmail@gmail.com',
-      href: 'mailto:yourmail@gmail.com',
+      value: 'yogeswaran.cse@gmail.com',
+      href: 'mailto:yogeswaran.cse@gmail.com',
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Connect with me',
-      href: 'https://linkedin.com/in/yourprofile',
+      href: 'https://www.linkedin.com/in/yogeswaran-s-bb1025358/',
     },
     {
       icon: Github,
       label: 'GitHub',
       value: 'View my code',
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/Yogeswaran-SD',
     },
   ]
 
