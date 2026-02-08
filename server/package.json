@@ -1,0 +1,29 @@
+{
+    "name": "portfolio-server",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Portfolio backend server with Express and MongoDB",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "keywords": [
+        "express",
+        "mongodb",
+        "portfolio"
+    ],
+    "author": "Yogeswaran S",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "mongoose": "^8.1.1",
+        "dotenv": "^16.4.1",
+        "cors": "^2.8.5",
+        "helmet": "^7.1.0",
+        "express-rate-limit": "^7.1.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+}
